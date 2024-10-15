@@ -4,33 +4,33 @@ body {
   padding: 0;
   background-color: #E9DDD5;
   color: #664243;
-  font-size: 16px; /* Уменьшение базового размера шрифта */
+  font-size: 16px;
 }
 
 header {
   background-color: #E9DDD5;
-  padding: 10px; /* Уменьшение отступов */
+  padding: 10px;
 }
 
 h1 {
   margin: 0;
-  font-size: 1.8em; /* Уменьшение размера заголовка */
+  font-size: 1.8em;
   font-weight: Bold;
 }
 
 .introduction {
-  padding: 10px; /* Уменьшение отступов */
+  padding: 10px;
   background-color: #664243;
   color: #E9DDD5;
   border-radius: 8px;
-  margin: 10px; /* Уменьшение внешних отступов */
+  margin: 10px;
   text-align: justify;
-  font-size: 1.2em; /* Уменьшение размера текста */
+  font-size: 1.2em;
 }
 
 nav {
   background-color: #746770;
-  padding: 5px; /* Уменьшение отступов */
+  padding: 5px;
 }
 
 nav ul {
@@ -41,18 +41,18 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 0 10px; /* Уменьшение внешних отступов */
+  margin: 0 10px;
 }
 
 nav a {
   text-decoration: none;
   color: #F8B0C8;
   font-weight: bold;
-  padding: 3px 7px; /* Уменьшение отступов */
+  padding: 3px 7px;
   border: 2px solid transparent;
   border-radius: 5px;
   transition: background-color 0.3s, border-color 0.3s;
-  font-size: 0.8em; /* Уменьшение размера шрифта */
+  font-size: 0.8em;
 }
 
 nav a:hover {
@@ -65,14 +65,14 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px; /* Уменьшение отступов */
+  padding: 10px;
 }
 
 .car {
   background-color: #ffffff;
   border-radius: 8px;
-  margin: 10px; /* Уменьшение внешних отступов */
-  width: calc(100% - 20px); /* Уменьшение ширины */
+  margin: 10px;
+  width: calc(100% - 20px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -82,15 +82,15 @@ nav a:hover {
 }
 
 .car-details {
-  padding: 10px; /* Уменьшение отступов */
+  padding: 10px;
   text-align: justify;
-  font-size: 0.8em; /* Уменьшение размера текста */
+  font-size: 0.8em;
 }
 
 .car-options {
-  margin-top: 10px; /* Уменьшение внешнего отступа */
+  margin-top: 10px;
   text-align: justify;
-  font-size: 0.8em; /* Уменьшение размера текста */
+  font-size: 0.8em;
 }
 
 .car-options ul {
@@ -103,51 +103,51 @@ nav a:hover {
 }
 
 h2 {
-  font-size: 1.5em; /* Уменьшение размера заголовка */
+  font-size: 1.5em;
   color: #F8B0C8;
   text-align: justify;
 }
 
 .car a {
-  font-size: 0.8em; /* Уменьшение размера шрифта */
+  font-size: 0.8em;
   color: #746770;
   text-decoration: none;
 }
 
-/* Мобильная адаптация */
 @media (min-width: 600px) {
   .car {
-      width: calc(45% - 20px); /* Ширина для планшетов */
+      width: calc(45% - 20px);
   }
 }
 
 @media (min-width: 900px) {
   .car {
-      width: calc(30% - 20px); /* Ширина для настольных ПК */
+      width: calc(30% - 20px);
   }
 }
+
 .contact-form {
   max-width: 600px;
-  margin: 20px auto; /* Центрирование формы */
+  margin: 20px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  background-color: #f9f9f9; /* Светлый фон для формы */
+  background-color: #f9f9f9;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 1.5em; /* Увеличение размера заголовка */
-  color: #F8B0C8; /* Цвет заголовка */
+  font-size: 1.5em;
+  color: #F8B0C8;
 }
 
 .contact-form label {
   display: block;
-  margin-bottom: 8px; /* Отступы между метками и полями ввода */
-  font-weight: bold; /* Полужирный текст для меток */
-  color: #664243; /* Цвет меток */
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #664243;
 }
 
 .contact-form input[type="text"],
@@ -155,24 +155,24 @@ h2 {
 .contact-form input[type="email"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px; /* Отступы между полями ввода */
-  border: 2px solid #746770; /* Цвет рамки */
-  border-radius: 5px; /* Скругление углов */
-  font-size: 1em; /* Размер шрифта */
+  margin-bottom: 15px;
+  border: 2px solid #746770;
+  border-radius: 5px;
+  font-size: 1em;
 }
 
 .contact-form input[type="submit"] {
-  background-color: #F8B0C8; /* Цвет кнопки */
-  color: white; /* Цвет текста кнопки */
+  background-color: #F8B0C8;
+  color: white;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  width: 100%; /* Ширина кнопки */
-  font-size: 1em; /* Размер шрифта кнопки */
-  transition: background-color 0.3s; /* Эффект перехода */
+  width: 100%;
+  font-size: 1em;
+  transition: background-color 0.3s;
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #ffecda; /* Цвет кнопки при наведении */
+  background-color: #ffecda;
 }
