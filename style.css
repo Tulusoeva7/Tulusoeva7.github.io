@@ -1,0 +1,178 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E9DDD5;
+  color: #664243;
+  font-size: 16px; /* Уменьшение базового размера шрифта */
+}
+
+header {
+  background-color: #E9DDD5;
+  padding: 10px; /* Уменьшение отступов */
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8em; /* Уменьшение размера заголовка */
+  font-weight: Bold;
+}
+
+.introduction {
+  padding: 10px; /* Уменьшение отступов */
+  background-color: #664243;
+  color: #E9DDD5;
+  border-radius: 8px;
+  margin: 10px; /* Уменьшение внешних отступов */
+  text-align: justify;
+  font-size: 1.2em; /* Уменьшение размера текста */
+}
+
+nav {
+  background-color: #746770;
+  padding: 5px; /* Уменьшение отступов */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px; /* Уменьшение внешних отступов */
+}
+
+nav a {
+  text-decoration: none;
+  color: #F8B0C8;
+  font-weight: bold;
+  padding: 3px 7px; /* Уменьшение отступов */
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s;
+  font-size: 0.8em; /* Уменьшение размера шрифта */
+}
+
+nav a:hover {
+  background-color: #ffecda;
+  border-color: #F8B0C8;
+  color: #ffecda;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px; /* Уменьшение отступов */
+}
+
+.car {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 10px; /* Уменьшение внешних отступов */
+  width: calc(100% - 20px); /* Уменьшение ширины */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.car-details {
+  padding: 10px; /* Уменьшение отступов */
+  text-align: justify;
+  font-size: 0.8em; /* Уменьшение размера текста */
+}
+
+.car-options {
+  margin-top: 10px; /* Уменьшение внешнего отступа */
+  text-align: justify;
+  font-size: 0.8em; /* Уменьшение размера текста */
+}
+
+.car-options ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.car-options li {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.5em; /* Уменьшение размера заголовка */
+  color: #F8B0C8;
+  text-align: justify;
+}
+
+.car a {
+  font-size: 0.8em; /* Уменьшение размера шрифта */
+  color: #746770;
+  text-decoration: none;
+}
+
+/* Мобильная адаптация */
+@media (min-width: 600px) {
+  .car {
+      width: calc(45% - 20px); /* Ширина для планшетов */
+  }
+}
+
+@media (min-width: 900px) {
+  .car {
+      width: calc(30% - 20px); /* Ширина для настольных ПК */
+  }
+}
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto; /* Центрирование формы */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Светлый фон для формы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em; /* Увеличение размера заголовка */
+  color: #F8B0C8; /* Цвет заголовка */
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px; /* Отступы между метками и полями ввода */
+  font-weight: bold; /* Полужирный текст для меток */
+  color: #664243; /* Цвет меток */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Отступы между полями ввода */
+  border: 2px solid #746770; /* Цвет рамки */
+  border-radius: 5px; /* Скругление углов */
+  font-size: 1em; /* Размер шрифта */
+}
+
+.contact-form input[type="submit"] {
+  background-color: #F8B0C8; /* Цвет кнопки */
+  color: white; /* Цвет текста кнопки */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Ширина кнопки */
+  font-size: 1em; /* Размер шрифта кнопки */
+  transition: background-color 0.3s; /* Эффект перехода */
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #ffecda; /* Цвет кнопки при наведении */
+}
