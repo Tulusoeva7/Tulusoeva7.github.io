@@ -1,57 +1,41 @@
-$primary-color: #f4f4f4;
-$card-bg-color: #fff;
-$card-border-color: #ccc;
-$font-family: Arial, sans-serif;
+$primary-color: #f5f5f5;
+$card-bg-color: #ffffff;
+$card-border-color: #dddddd;
+$font-family: 'Arial', sans-serif;
 
 body {
+    background-color: $primary-color;
     font-family: $font-family;
     margin: 0;
     padding: 20px;
-    background-color: $primary-color;
 }
 
 h1 {
     text-align: center;
 }
 
-.car-list {
+.container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.car-card {
+.card {
     background-color: $card-bg-color;
     border: 1px solid $card-border-color;
     border-radius: 5px;
-    padding: 15px;
-    margin: 10px 0;
+    padding: 20px;
+    margin: 10px;
     width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.car-name {
-    font-size: 1.5em;
-    margin: 0;
+.card h2 {
+    margin-top: 0;
 }
 
-.car-options {
-    margin-top: 10px;
-    text-align: left;
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-
-        li {
-            margin-bottom: 5px;
-            display: flex;
-            justify-content: space-between;
-            padding: 5px 0;
-            border-bottom: 1px solid $card-border-color;
-        }
-    }
+.card p {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
 }
