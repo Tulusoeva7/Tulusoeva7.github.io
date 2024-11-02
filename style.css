@@ -2,13 +2,13 @@ body {
   font-family: 'Georgia', serif;
   margin: 0;
   padding: 0;
-  background-color: #E9DDD5;
-  color: #664243;
+  background-color: #E9DDD5; /* бежевый */
+  color: #664243; /* коричневый */
   font-size: 16px;
 }
 
 header {
-  background-color: #E9DDD5;
+  background-color: #E9DDD5; /* бежевый */
   padding: 10px;
 }
 
@@ -21,8 +21,8 @@ h1 {
 
 .introduction {
   padding: 15px;
-  background-color: #664243;
-  color: #E9DDD5;
+  background-color: #664243; /* коричневый */
+  color: #E9DDD5; /* бежевый */
   border-radius: 8px;
   margin: 10px;
   text-align: justify;
@@ -30,7 +30,7 @@ h1 {
 }
 
 nav {
-  background-color: #746770;
+  background-color: #746770; /* серый */
   padding: 5px;
 }
 
@@ -47,7 +47,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #F8B0C8;
+  color: #F8B0C8; /* розовый */
   font-weight: bold;
   padding: 5px 10px;
   border: 2px solid transparent;
@@ -57,9 +57,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ffecda;
-  border-color: #F8B0C8;
-  color: #664243;
+  background-color: #ffecda; /* светло-розовый */
+  border-color: #F8B0C8; /* розовый */
+  color: #664243; /* коричневый */
 }
 
 .container {
@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 .car {
-  background-color: #ffffff;
+  background-color: #ffffff; /* белый */
   border-radius: 8px;
   margin: 10px;
   width: calc(100% - 20px);
@@ -102,27 +102,27 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   padding: 5px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; /* серый */
 }
 
 .car-options li span {
-  flex: 1; /* Позволяет тексту занимать доступное пространство */
-  margin: 0 10px; /* Добавление отступа между текстом */
+  flex: 1;
+  margin: 0 10px;
 }
 
 h2 {
   font-size: 1.6em;
-  color: #F8B0C8;
+  color: #F8B0C8; /* розовый */
   text-align: center;
 }
 
 h3 {
-  color: #664243;
+  color: #664243; /* коричневый */
 }
 
 .car a {
   font-size: 0.9em;
-  color: #746770;
+  color: #746770; /* серый */
   text-decoration: none;
 }
 
@@ -142,9 +142,9 @@ h3 {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #ccc; /* серый */
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /* светло-серый */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -152,14 +152,14 @@ h3 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 1.8em;
-  color: #F8B0C8;
+  color: #F8B0C8; /* розовый */
 }
 
 .contact-form label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
-  color: #664243;
+  color: #664243; /* коричневый */
 }
 
 .contact-form input[type="text"],
@@ -168,13 +168,13 @@ h3 {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 2px solid #746770;
+  border: 2px solid #746770; /* серый */
   border-radius: 5px;
   font-size: 1em;
 }
 
 .contact-form input[type="submit"] {
-  background-color: #F8B0C8;
+  background-color: #F8B0C8; /* розовый */
   color: white;
   padding: 10px;
   border: none;
@@ -186,5 +186,5 @@ h3 {
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: #ffecda;
+  background-color: #ffecda; /* светло-розовый */
 }
