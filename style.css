@@ -14,12 +14,13 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 1.8em;
-  font-weight: Bold;
+  font-size: 2em; /* Увеличен размер заголовка */
+  font-weight: bold;
+  text-align: center; /* Центрирование заголовка */
 }
 
 .introduction {
-  padding: 10px;
+  padding: 15px;
   background-color: #664243;
   color: #E9DDD5;
   border-radius: 8px;
@@ -41,24 +42,24 @@ nav ul {
 
 nav li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px; /* Увеличен отступ между элементами навигации */
 }
 
 nav a {
   text-decoration: none;
   color: #F8B0C8;
   font-weight: bold;
-  padding: 3px 7px;
+  padding: 5px 10px; /* Увеличен внутренний отступ */
   border: 2px solid transparent;
   border-radius: 5px;
   transition: background-color 0.3s, border-color 0.3s;
-  font-size: 0.8em;
+  font-size: 1em; /* Увеличен размер шрифта для удобства чтения */
 }
 
 nav a:hover {
   background-color: #ffecda;
   border-color: #F8B0C8;
-  color: #ffecda;
+  color: #664243; /* Цвет текста при наведении изменен для контраста */
 }
 
 .container {
@@ -82,15 +83,15 @@ nav a:hover {
 }
 
 .car-details {
-  padding: 10px;
+  padding: 15px; /* Увеличен внутренний отступ для лучшего восприятия */
   text-align: justify;
-  font-size: 0.8em;
+  font-size: 0.9em; /* Увеличен размер шрифта */
 }
 
 .car-options {
   margin-top: 10px;
   text-align: justify;
-  font-size: 0.8em;
+  font-size: 0.9em; /* Увеличен размер шрифта */
 }
 
 .car-options ul {
@@ -103,13 +104,13 @@ nav a:hover {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.6em; /* Увеличен размер заголовка для разделов автомобилей */
   color: #F8B0C8;
-  text-align: justify;
+  text-align: center; /* Центрирование заголовков для автомобилей */
 }
 
 .car a {
-  font-size: 0.8em;
+  font-size: 0.9em; /* Увеличен размер шрифта */
   color: #746770;
   text-decoration: none;
 }
@@ -139,7 +140,7 @@ h2 {
 .contact-form h2 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.8em; /* Увеличен размер заголовка формы */
   color: #F8B0C8;
 }
 
