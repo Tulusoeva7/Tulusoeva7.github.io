@@ -37,25 +37,21 @@ h1 {
 
 .car-options {
     margin-top: 10px;
-    text-align: justify;
-    font-size: 0.9em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    text-align: left;
 
     ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
 
         li {
-            margin-right: 10px;
             margin-bottom: 5px;
-            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+            border-bottom: 1px solid $card-border-color;
         }
     }
 }
