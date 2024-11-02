@@ -90,7 +90,6 @@ nav a:hover {
 
 .car-options {
   margin-top: 10px;
-  text-align: justify;
   font-size: 0.9em;
 }
 
@@ -102,8 +101,13 @@ nav a:hover {
 .car-options li {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
   padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.car-options li span {
+  flex: 1; /* Позволяет тексту занимать доступное пространство */
+  margin: 0 10px; /* Добавление отступа между текстом */
 }
 
 h2 {
